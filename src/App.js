@@ -18,12 +18,7 @@ const App = () => {
       />
       ; */}
       <Header />
-      <Bottom
-      // pvalue={patient}
-      // avalue={appoiment}
-      // fvalue={file}
-      // dvalue={doctor}
-      />
+      <Bottom />
     </>
   );
 };

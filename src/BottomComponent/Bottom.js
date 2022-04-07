@@ -14,7 +14,9 @@ import Middle from "./Middle/Middle";
 const Bottom = () => {
   const [input, update] = useState();
   const change = () => {
-    update(input);
+    update((data) => {
+      return data;
+    });
   };
   useEffect(() => {}, []);
   return (
@@ -43,6 +45,7 @@ const Bottom = () => {
                       className={bottom_css._search_box}
                       value={input}
                       placeholder="Search"
+                      onChange={change}
                     />
                   </div>
                   <div className={bottom_css.plus}>
