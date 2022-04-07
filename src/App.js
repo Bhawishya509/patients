@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React, { useEffect } from "react";
+import Header from "./HeaderComponent/Header";
+import Bottom from "./BottomComponent/Bottom";
+// import Api from "./Api/Api";
+const App = () => {
+  // const [patient, update_patient] = useState([]);
+  // const [file, update_file] = useState([]);
+  // const [doctor, update_doctor] = useState([]);
+  // const [appoiment, update_appoiment] = useState([]);
+  useEffect(() => {}, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Api
+        pvalue={update_patient}
+        avalue={update_appoiment}
+        fvalue={update_file}
+        dvalue={update_doctor}
+      />
+      ; */}
+      <Header />
+      <Bottom
+      // pvalue={patient}
+      // avalue={appoiment}
+      // fvalue={file}
+      // dvalue={doctor}
+      />
+    </>
   );
-}
+};
 
 export default App;

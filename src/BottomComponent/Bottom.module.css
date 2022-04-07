@@ -1,0 +1,253 @@
+.header
+{
+    display: flex;
+    height: 120vh;
+    width: 92vw;
+    box-sizing: border-box;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: #f2f6ff;
+    margin-bottom: 20px;
+
+}
+.main
+{
+    box-sizing: border-box;
+    margin-top: 2%;
+    width: 94%;
+    height: 94%;
+   
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.menu_baar
+{
+   height: 96%;
+   width: 90%;
+   border: 6px solid #34477A;
+   border-radius: 12px;
+   display: flex;
+   box-shadow: 1px 0px 2px 1px rgb(63, 61, 61);
+}
+.name_search
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 50%;
+    
+  
+    border-top-right-radius: 6px;
+    
+}
+.patient_block,.profile_block
+{
+    height: 60%;
+    width: 100%;
+    
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.8px solid rgb(228, 231, 233);
+}
+.patient_block
+{
+    
+    width: 138%;
+}
+.profile_block
+{
+    
+    width: 64.80vw;
+    
+
+}
+
+.profile_logo_name,.searchblock
+{
+    width: 30%;
+    height: 100%;
+    
+    display: flex;
+ 
+    justify-content: space-between;
+}
+.profile_logo_name
+{
+    width: 16%;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    height: 8vh;
+    
+}
+.profile_photo_logo
+{
+  font-size: 1.4rem;
+  color: rgb(34, 112, 238);
+  margin-top: 3px;
+}
+.profile_photo_name
+{
+ font-weight: 700;
+}
+
+.searchblock
+{
+    border-top-right-radius: 6px;
+    width:34% ;
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+}
+._search_block
+{
+    display: flex;
+
+    height:60%;
+    width: 70%;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    border:0.6px solid rgb(219, 221, 223);
+    padding-left: 10px;
+}
+._search_logo
+{
+    height: 1.2rem;
+    color: #737375;
+}
+._search_box
+{
+    border: none;
+    outline: none;
+    height: 80%;
+    background: none;
+    margin-left: 3px;
+    
+    font-size: 0.9rem;
+    display: flex;
+  
+}
+.plus
+{
+    display: flex;
+    font-size: 1.9rem;
+    color: rgb(43, 108, 212);
+    
+}
+.notification
+{
+
+    display: flex;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.patient_list,.edit_patient_list
+{
+    width: 35%;
+   
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4px;
+    padding-left: 4px;
+
+}
+.patient_list
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+padding-left: 2%;
+    color: #7a7a7e;
+
+ 
+}
+.edit_patient_list
+{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    
+}
+.greater
+{
+    box-sizing: border-box;
+    height: 30%;
+    width: 10%;
+    font-size:1.4rem;
+    margin-bottom: 8px;
+}
+.name1
+{
+    color: rgb(79, 162, 251);
+}
+.edit_block
+{
+
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+    background-color: white;
+    border-radius: 2px;
+    height: 50%;
+}
+.lolly2
+{
+    height: 50%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 2px;
+    margin-right: 6px;
+    
+  
+}
+.printer
+{
+    display: flex;
+    width: fit-content;
+    font-size: 0.7rem;
+    background-color:white;
+
+    
+}
+.editword
+{
+    font-size: 0.7rem;
+    color: #7a7a7e;
+    font-weight: 700;
+}
+.edit
+{
+    font-size: 0.8rem;
+
+}
+.full_details
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+.full_details
+{
+    margin-top: 10px;
+}

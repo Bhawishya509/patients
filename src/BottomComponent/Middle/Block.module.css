@@ -1,0 +1,27 @@
+.block1
+{
+    height: 30%;
+    width: 30%;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.block1:hover
+{
+    border-radius: 6px;
+    background-color: rgb(231, 239, 246);
+}
+.details_class,.value_class
+{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgb(174, 183, 192);
+}
+.value_class
+{
+    font-weight: 600;
+    color: rgb(139, 140, 141);
+    
+}

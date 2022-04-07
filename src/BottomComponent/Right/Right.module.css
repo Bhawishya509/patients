@@ -1,0 +1,280 @@
+.right_block
+{
+    height: 89vh;
+    width: 24%;
+  
+    margin-left: 1%;
+    margin-top: 10.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.right_top,.right_down
+{
+    background-color:white;
+    height: 45%;
+    width: 100%;
+    border-radius: 6px;
+  
+
+}
+.right_notes_see
+{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+}
+
+.right_notes
+{
+   font-size: 0.9rem;
+   font-weight: 600;
+}
+.right_view
+{
+    font-size: 0.8rem;
+    color: rgb(40, 136, 221);
+    font-weight: 600;
+}
+.right_loream_logo
+{
+    box-sizing: border-box;
+    height: 60%;
+    width: 98%;
+    margin-left: 1.5%;
+    border-radius: 4px;
+    background-color: #EFF1F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    font-size: 0.7rem;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: rgb(134, 129, 129);
+    
+
+    
+}
+.right_down
+{
+    margin-bottom: 22%;
+}
+.lorem_para
+{
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+.right_logo
+{
+    box-sizing: border-box;
+    margin-right: 4px;
+    height: 18%;
+    width: 35%;
+    display: flex;
+    border-radius: 4px;
+    background-color: rgb(47, 100, 233);
+    position: relative;
+    left: 60%;
+    font-size: 0.7rem;
+    color: white;
+   font-weight: 600;
+    align-items: center;
+    justify-content: center
+}
+.right_profile_logo
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+
+
+}
+.right_profile_logo_top,.right_profile_logo_down
+{
+  box-sizing: border-box;
+  height: 40%;
+  width: 100%;
+  
+  padding-left: 4px;
+}
+.right_profile_logo_top
+{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.right_profile_logo_down_first,.right_profile_logo_down_second
+{
+    height: 55%;
+    width: 35%;
+    
+}
+.right_profile_logo_down_first
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_profile_logo_down_second
+{
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    color: rgb(174, 166, 166);
+    font-weight: 600;
+
+}
+.right_profile_logo_down_first1
+{
+    box-sizing: border-box;
+    font-size: 0.6rem;
+    margin-top: 2px;
+    color: rgb(42, 154, 223);
+}
+.right_profile_logo_down_first2
+{
+    font-size: 0.6rem;
+    color: rgb(174, 166, 166);
+    font-weight: 600;
+}
+.right_profile_logo_down
+{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right_down
+{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.right_down_block
+{
+    display: flex;
+    width: 100%;
+    height: 15%;
+
+    justify-content: space-between;
+}
+.right_down_block1
+{
+    width: 45%;
+    height: 100%;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+.right_down_block2
+{
+    width: 30%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+    box-sizing: border-box;
+    margin-right: 6%;
+}
+.right_down_block2_file_logo,.right_down_block2_file_edit
+{
+    color: rgb(87, 193, 235);
+    font-weight: 600;
+}
+.right_down_block2_file_logo
+{
+    font-size: 1rem;
+}
+.last_block1
+{
+    box-sizing: border-box;
+    height: 16%;
+    border-radius: 4px;
+    width: 96%;
+    display: flex;
+    box-sizing: border-box;
+   margin-left: 4px;
+   padding-left: 6px;
+   padding-right: 6px;
+    justify-content: space-between;
+    border: 0.1px solid rgb(238, 239, 240);
+}
+.last_block2,.last_block3
+{
+ width: 20%;
+ height: 100%;
+ display: flex;
+ justify-content: space-between;
+ color: rgb(157, 170, 182);
+}
+
+.last_block2
+{
+ align-items: center;
+ width: 50%; 
+ font-weight: 600;
+ padding-left: 2px;
+ padding-right: 2px;
+ box-sizing: border-box;
+}
+.last_block2_logo
+{
+  font-size: 0.8rem;
+}
+.last_block2_name
+{
+    font-size: 0.6rem;
+}
+.last_block3
+{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+.last_block4
+{
+    font-size: 0.7rem;
+}
+
+.speical
+{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 4px;
+    flex-direction: column;
+    height: 84%;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+
+}

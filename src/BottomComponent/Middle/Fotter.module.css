@@ -1,0 +1,161 @@
+.footer_3_block
+{
+    width: 78%;
+    height: 12%;
+    background-color: rgb(216, 228, 228);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+
+
+}
+.upcomeing,.post,.medical
+{
+    border-radius: 4px;
+    height: 88%;
+    width: 33%;
+    font-size: 0.6rem;
+   color: rgb(91, 96, 101);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.upcomeing
+{
+   background-color: aliceblue; 
+   color: rgb(54, 99, 233);
+   
+}
+.post:hover
+{
+    background-color: aliceblue;
+    color: rgb(54, 99, 233);
+}
+.medical:hover
+{
+    background-color: aliceblue;
+    color: rgb(54, 99, 233);
+}
+.footer_2
+{
+    box-sizing: border-box;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #F2F6FF;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.footer_root
+{
+    width: 100%;
+    height: 16%;
+    border-bottom: 0.7px solid rgb(225, 227, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    
+    
+
+}
+.footer_input
+{
+    font-size: 0.6rem;
+    color: rgb(95, 99, 103);
+    font-weight: 700;
+    
+}
+.footer_logo
+{
+    box-sizing: border-box;
+   width: 28%;
+   background-color: white;
+   height: 70%;
+   display: flex;
+   align-items: center;
+   
+   justify-content: space-around;
+   border-radius: 4px;
+
+}
+.logo{
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.name
+{
+    font-size: 0.6rem;
+    color: rgb(65, 67, 68);
+    font-weight: 600;
+}
+.footer_note_list_cover
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.footer_note_list
+{
+    height: 100%;
+    width: 98%;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 4px;
+    display: flexbox;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.footer_note_list1,.footer_note_list2,
+.footer_note_list4,.footer_note_list3,
+.footer_note_list5
+{
+    width: 19%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_note_list1_date
+{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer_note_list2_date2,
+.footer_note_list4_date4,.footer_note_list3_date3
+{
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.footer_note_list1_time
+{
+  font-size: 0.5rem;
+  color: rgb(143, 154, 164);
+  margin-top: 2px;
+  font-weight: 600;
+}
+.footer_note_list5
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

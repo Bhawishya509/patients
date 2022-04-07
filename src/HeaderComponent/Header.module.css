@@ -1,0 +1,116 @@
+.mainheader
+{
+    height: 20vh;
+    width: 98vw;
+    /* border: 2px solid #F3F3F4; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainheader_inside
+{
+    width: 92vw;
+    height: 12vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.mainheader_photo_text
+{
+  width: 93%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+ 
+  
+}
+.text_block
+{
+     margin-left: 5%;
+    height:100% ;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+}
+
+
+.text1
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    font-size: 2.3rem;
+    /* background-color: yellow; */
+    font-family: 'Ingrid Darling', 'cursive'
+}
+.text2block
+{
+    
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    height: 80%;
+
+    /* background-color: rgb(143, 143, 226); */
+}
+.text2
+{
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.3rem;
+   display: flex;
+   align-items: center;
+    font-family:"Haas Grot Text R Web", 
+    "Helvetica Neue",
+     Helvetica, Arial, sans-serif;
+     font-weight: 540;
+}
+
+.text3
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.photo_block
+{
+display: flex;
+align-items: center;
+height: 80%;
+width: 88px;
+justify-content: center;
+border: 2px solid red;
+border-radius: 8px;
+ background-color: #F2F5FA;
+}
+.photo
+{
+    height: 84%;
+    width: 92%;
+    background-image: url("https://cdn.dribbble.com/users/228427/screenshots/9866814/media/f7371ff85adf8b4a2b50f45600baab71.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 4px;
+}
+
+.under_line
+{
+    border-bottom: 2px solid #F3F3F4;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
